@@ -132,6 +132,7 @@
     </Compile>
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\EmployeeContext.cs" />
+    <Compile Include="Models\EmployeeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

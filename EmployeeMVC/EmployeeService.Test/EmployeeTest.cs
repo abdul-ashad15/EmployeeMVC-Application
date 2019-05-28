@@ -19,5 +19,13 @@ namespace EmployeeService.Test
             Employee employee = employeeContext.employees.FirstOrDefault(emp => emp.EmpId == 1001);
             Assert.AreEqual("Abdul1", employee.FirstName);
         }
+
+        [TestMethod]
+        public void GetEmployeeLastName()
+        {
+            EmployeeContext employeeContext = new EmployeeContext();
+            Employee employee = employeeContext.employees.FirstOrDefault(emp => emp.EmpId == 1001);
+            Assert.AreEqual("Ashad1", employee.LastName);
+        }
     }
 }
